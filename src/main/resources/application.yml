@@ -20,3 +20,10 @@ spring:
       hibernate:
         format_sql: true
         # dialect: org.hibernate.dialect.MariaDBDialect 
+
+# Swagger UI 설정 추가
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html  # Swagger UI 경로 설정
+  api-docs:
+    path: /api-docs  # API 문서 경로 설정 
