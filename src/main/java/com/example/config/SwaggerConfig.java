@@ -1,3 +1,5 @@
+package com.example.config;
+
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
 import org.springframework.context.annotation.Bean;
@@ -13,4 +15,4 @@ public class SwaggerConfig {
                         .description("Template Server API 명세서")
                         .version("v1.0.0"));
     }
-} 
+}
